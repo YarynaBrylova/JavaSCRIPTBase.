@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65IRSFAfVkQRmI9_rSkVd1u9NjVj3ck8HtE6iIt5vQ1x7A9yz);
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center center; */
+    background: rgb(205, 218, 170);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Lexend Peta', sans-serif;
+    color: rgb(167, 99, 150);
+}
+
+label {
+   color: rgb(90, 85, 85);
+   font-size: 20px; 
+}
+
+input::placeholder {
+    color: rgb(136, 136, 139);
+    font-size: 16px;
+}
+
+input,
+button {
+    padding: 10px 15px;    
+    margin-bottom: 25px;
+}
+
+button,
+input:focus,
+input:active {
+    outline-color: rgb(167, 99, 150);
+}
+
+#calculate,
+button {
+    background-color: rgb(167, 99, 150);
+}
+
+.show {
+    display: block;
+    border: 2px solid rgb(167, 99, 150);
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.error {
+    color: red;
+    padding-bottom: 15px;
+}
+
+.triangle input {
+    margin-bottom: 8px;
+}

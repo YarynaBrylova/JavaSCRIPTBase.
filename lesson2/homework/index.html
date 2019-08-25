@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Peta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Are the digits the same?</h2>
+        <div class="digits">
+            <label>Введіть двоохзначне число:</label>
+            <input type="text" value="" placeholder = "Enter digits" id="digits">
+            <button id="check">Check</button>
+            <div class="result" id="result"></div>
+        </div>
+        <h2>Punctuation</h2>
+        <div>
+            <label>Введіть розділовий знак:</label>
+            <input type="text" value="" placeholder = "Enter sign" id="punctuation">
+            <button id="checkSign">Check</button>
+            <div class="result" id="resultSign"></div>
+         </div>
+         <h2>Square of triangle</h2>
+         <div>
+            <div class="triangle">
+                <label>Введіть сторону трикутника:</label>
+                <input type="text" placeholder="Side" id="side">
+                <div id="errorSide" class="error"></div>
+                <div class="clear"></div>
+            </div>
+            <label>Введіть висоту трикутника:</label>
+            <input type="text" placeholder="Height" id="height" class="triangle">
+                <div id="errorHeight" class="error"></div>
+            <input type="submit" value="Визначити" id="calculate">
+             <div class="result" id="square"></div>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
